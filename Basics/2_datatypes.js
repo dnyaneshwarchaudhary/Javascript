@@ -19,3 +19,4 @@ let name = "Dnyaneshwar";
 console.log(typeof age);
 console.log(typeof null); //type is object
 console.log(typeof undefined); // type is undefined itself
+
