@@ -39,5 +39,6 @@ val1 = undefined??21;
 //condition ? true : false
 
 const price = 1900;
+const price2 = 200;
 
 price >= 800 ? console.log("greater"): console.log("false");
