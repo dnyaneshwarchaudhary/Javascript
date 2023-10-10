@@ -1,0 +1,64 @@
+// for of 
+
+const arr = [1,2,3,4,6]
+for (const val of arr) {
+    // console.log(val);
+}
+
+// maps
+
+const map = new Map()
+map.set('IN',"India");
+map.set('USA',"United States of America")
+
+// console.log(map);
+
+//this syntax does not work in case of accessing the object keys
+ for (const [key,value] of map) {
+    // console.log(key);
+ }
+
+//for in loop
+
+const lang = {
+    cpp : "C++",
+    js : "Javascript",
+    py : "python"
+}
+for (const key in lang) {
+//   console.log(`${key} is shortcut for ${lang[key]}`);
+}
+
+//for in loop in case of arrays prints keys (indexes)
+// for in loop in case of maps is not possible
+
+// for each loop (most used)
+
+const coding = ["js","py","ruby","c","c#"];
+
+// foreach is used for arrays 
+
+// coding.forEach(element => {
+//     console.log(element);
+// });
+
+
+function printme(num ){
+    // console.log(num);/
+}
+// coding.forEach(printme);
+
+const myCoding = [
+    {
+        langname : "java",
+        langfile : ".java"
+    },
+    {
+        langname : "c++",
+        langfile : ".cpp"
+    }
+]
+
+myCoding.forEach((element) => {
+    console.log(element.langfile);
+});
